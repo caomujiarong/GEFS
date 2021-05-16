@@ -26,6 +26,15 @@
     <ClCompile Include="Framework\Common\BaseApplication.cpp">
       <Filter>Framework\Common</Filter>
     </ClCompile>
+    <ClCompile Include="Empty\EmptyApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Common\GraphicsManager.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\Windows\helloengine_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\Interface\Interface.h">
@@ -38,6 +47,9 @@
       <Filter>Framework\Interface</Filter>
     </ClInclude>
     <ClInclude Include="Framework\Common\BaseApplication.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Common\GraphicsManager.h">
       <Filter>Framework\Common</Filter>
     </ClInclude>
   </ItemGroup>

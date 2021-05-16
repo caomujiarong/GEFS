@@ -88,10 +88,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)/GameEngineFromScratch/Framework/Interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)/GameEngineFromScratch/Framework/Interface;$(SolutionDir)/GameEngineFromScratch/Framework/Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>NotSet</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -140,11 +140,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Empty\EmptyApplication.cpp" />
     <ClCompile Include="Framework\Common\BaseApplication.cpp" />
+    <ClCompile Include="Framework\Common\GraphicsManager.cpp" />
     <ClCompile Include="Framework\Common\main.cpp" />
+    <ClCompile Include="Platform\Windows\helloengine_win.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\Common\BaseApplication.h" />
+    <ClInclude Include="Framework\Common\GraphicsManager.h" />
     <ClInclude Include="Framework\Interface\IApplication.h" />
     <ClInclude Include="Framework\Interface\Interface.h" />
     <ClInclude Include="Framework\Interface\IRuntimeModule.h" />
