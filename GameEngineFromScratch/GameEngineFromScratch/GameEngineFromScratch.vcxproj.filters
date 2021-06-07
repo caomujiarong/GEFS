@@ -32,7 +32,10 @@
     <ClCompile Include="Framework\Common\GraphicsManager.cpp">
       <Filter>Framework\Common</Filter>
     </ClCompile>
-    <ClCompile Include="Platform\Windows\helloengine_win.cpp">
+    <ClCompile Include="Platform\Windows\helloengine_win.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\Windows\helloengine_d2d.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
