@@ -38,6 +38,9 @@
     <ClCompile Include="Platform\Windows\helloengine_d2d.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Framework\Common\Allocator.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\Interface\Interface.h">
@@ -53,6 +56,9 @@
       <Filter>Framework\Common</Filter>
     </ClInclude>
     <ClInclude Include="Framework\Common\GraphicsManager.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Common\Allocator.hpp">
       <Filter>Framework\Common</Filter>
     </ClInclude>
   </ItemGroup>

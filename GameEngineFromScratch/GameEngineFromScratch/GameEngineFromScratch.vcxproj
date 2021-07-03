@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Empty\EmptyApplication.cpp" />
+    <ClCompile Include="Framework\Common\Allocator.cpp" />
     <ClCompile Include="Framework\Common\BaseApplication.cpp" />
     <ClCompile Include="Framework\Common\GraphicsManager.cpp" />
     <ClCompile Include="Framework\Common\main.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="Platform\Windows\helloengine_win.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Framework\Common\Allocator.hpp" />
     <ClInclude Include="Framework\Common\BaseApplication.h" />
     <ClInclude Include="Framework\Common\GraphicsManager.h" />
     <ClInclude Include="Framework\Interface\IApplication.h" />
